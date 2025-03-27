@@ -6,14 +6,14 @@ import java.util.List;
 public class Employee {
     private int edi;
     private String ename;
-    private int salary;
-    public Employee(int edi,String ename,int salary){
+    private double salary;
+    public Employee(int edi,String ename,double salary){
         this.edi=edi;
         this.ename=ename;
         this.salary=salary;
     }
 
-    public void setSalary(int salary) {
+    public void setSalary(double  salary) {
         this.salary = salary;
     }
 
